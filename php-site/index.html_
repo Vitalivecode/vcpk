@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+  
+<head>
+    <title>Vaageswari</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+	<!-- Favicon icon -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Fontawsome -->
+    <link href="fonts/css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- menu CSS-->
+    <link href="css/bootstrap-4-navbar.css" rel="stylesheet">
+    <!-- menu CSS-->
+    <link href="slick/slick.css" rel="stylesheet">
+	<!-- Lightbox Gallery -->
+    <link href="inc/lightbox/css/jquery.fancybox.css" rel="stylesheet">
+    <!-- Preloader CSS-->
+    <link href="css/fakeLoader.css" rel="stylesheet">
+    <!-- Video popup CSS-->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- Main CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Color CSS --> 
+    <link rel="stylesheet" href="color/color-switcher.css">     
+	<!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+  <body>
+    <!-- Preloader -->
+    <div id="fakeloader"></div>
+<!--
+	<div class="top-menu-1x">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<marquee onMouseOver="this.stop()" onMouseOut="this.start()" scrollamount='3' scroll-behavior="smooth"; class="scrolltext"><img src="images/icons/new.gif" width="35">For ADMISSION in B.Pharm/M.Pharm/Pharm.D/Pharm D (PB)/B.Tech /M.Tech/MBA/MCA Seats Contact: 9502588612, 9989171133, 9502588609, 9502588615, 9963125922 – EAMCET CODE: VGSP, PGECET CODE: VGSP1 
+</marquee>
+				</div>				
+			</div>
+		</div>
+	</div>
+-->
+
+	<div class="search-box-2x">	
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-12">	
+					<div class="collapse" id="collapseExample">
+					  <div class="card card-body">
+							<div class="input-group">
+							  <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Enter your search">
+							  <div class="input-group-append styleSelect">
+							      <select id="inputGroupSelect01">
+								    <option selected>All Categories</option>
+								    <option value="1">One</option>
+								    <option value="2">Two</option>
+								    <option value="3">Three</option>
+								  </select>
+							  </div>
+							</div>	
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="main-menu-1x">	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">		
+					<div class="main-menu">		
+						<nav class="navbar navbar-expand-lg navbar-light bg-light btco-hover-menu">
+							<a class="navbar-brand" href="#">
+								<img src="images/logoBig1.png" class="d-inline-block align-top" alt="">						
+							</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="main-menu-1x mainmenu">	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">		
+					<div class="main-menu">		
+						<nav class="navbar navbar-expand-lg navbar-light bg-light btco-hover-menu">
+							
+						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						  </button>
+						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav main-menu-nav">
+							  <li class="nav-item active">
+								<a class="nav-link" href="index.html">HOME</a>
+							  </li>							 
+							  <li class="nav-item dropdown">
+									<a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										ABOUT
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+										<li><a class="dropdown-item" href="about.html">ABOUT US</a></li>
+										<li><a class="dropdown-item" href="visionmission.html">VISION & MISSION</a></li>
+										<li><a class="dropdown-item" href="governingBody.html">GOVERNING BODY</a></li>
+										<li><a class="dropdown-item" href="ombudsman.html">OMBUDSMAN</a></li>                            				
+										<li><a class="dropdown-item dropdown-toggle" href="#">VAAGESWARI GROUP</a>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" href="vips.html">VIPS </a></li>	
+												<li><a class="dropdown-item" href="vgse.html">VGSE</a></li>
+												<li><a class="dropdown-item" href="vims.html">VIMS</a></li>
+											</ul>
+										</li>                             
+									</ul>
+							  </li>
+							  <li class="nav-item dropdown">
+									<a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										ADMINISTRATION
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+										<li><a class="dropdown-item" href="president.html">PRESIDENT</a></li>
+										<li><a class="dropdown-item" href="vicePresident.html">VICE PRESIDENT</a></li>
+										<li><a class="dropdown-item" href="generalSecretary.html">GENERAL SECRETARY</a></li>
+										<li><a class="dropdown-item" href="jointSecretary.html">JOINT SECRETARY</a></li>                             
+										<li><a class="dropdown-item" href="principal.html">PRINCIPAL</a></li>                               
+									</ul>
+							  </li>
+							  <li class="nav-item dropdown">
+									<a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										ACADEMICS
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+										<li><a class="dropdown-item dropdown-toggle" href="#">DEPARTMENT</a>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" href="bPharmacy.html">B. PHARMACY</a></li>
+												<li><a class="dropdown-item" href="mPharmacyPharmaceutics.html">M.PHARM-PHARMACEUTICS</a></li>
+												<li><a class="dropdown-item" href="mPharmIndustrial.html">M.PHARM-INDUSTRIAL PHARMACY</a></li>
+												<li><a class="dropdown-item" href="mPharmcology.html">M.PHARM-PHARMACOLOGY</a></li>
+												<li><a class="dropdown-item" href="mPharmaAnalsis.html">M.PHARM-PHARMACEUTICAL ANALYSIS</a></li>
+												<li><a class="dropdown-item" href="mPharmaC.html">PHARM D & PHARM D (PB)</a></li>
+											</ul>
+										</li> 
+										<li><a class="dropdown-item" href="acdemicregulation.html">ACADEMIC REGULATIONS & SYLLABUS</a></li>
+										<li><a class="dropdown-item" href="teachingFaculty.html">TEACHING FACULTY</a></li>
+										<li><a class="dropdown-item" href="nonteachingFaculty.html">NON TEACHING FACULTY</a></li>
+										<li><a class="dropdown-item" href="mouWithHospital.html">MOU WITH HOSPITAL</a></li>                             
+										<li><a class="dropdown-item dropdown-toggle" href="#">COMMITTES</a>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" href="academicCommittee.html">Academic Committee</a></li>
+												<li><a class="dropdown-item" href="disciplinecommittee.html">Discipline Committee</a></li>
+												<li><a class="dropdown-item" href="generalgrievancecommittee.html">General Grievance Committee</a></li>
+												<li><a class="dropdown-item" href="healthheiginecommittee.html">Health & Hygiene Committee</a></li>
+												<li><a class="dropdown-item" href="internalcomplaintcommittee.html">Internal Complaint Committee</a></li>
+												<li><a class="dropdown-item" href="sc-stcommittee.html">SC – ST Committee</a></li>
+												<li><a class="dropdown-item" href="womenprotectioncell.html">Women Protection Cell</a></li>
+												<li><a class="dropdown-item" href="antiraggingcommittee.html">Anti Ragging Committee</a></li>
+											</ul>
+										</li>                              
+										<li><a class="dropdown-item" href="resultAnalysis.html">RESULT ANALYSIS</a></li></ul>
+							  </li>
+							  <li class="nav-item dropdown">
+									<a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										RESEARCH
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+										<li><a class="dropdown-item" href="researchProjects.html">PROJECTS</a></li>
+										<li><a class="dropdown-item" href="researchGrants.html">RESEARCH GRANTS</a></li>
+										<li><a class="dropdown-item" href="researchPublications.html">RESEARCH PUBLICATIONS</a></li>                            
+									</ul>
+							  </li>
+							  <li class="nav-item">
+								<a class="nav-link" href="placements.html">PLACEMENTS</a>
+							  </li>
+							  <li class="nav-item dropdown">
+									<a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										AMINITIES
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+										<li><a class="dropdown-item" href="infrastucture.html">INFRASTUCTURE</a></li>
+										<li><a class="dropdown-item" href="facilities.html">FACILITIES</a></li>                           
+									</ul>
+							  </li>
+							  <li class="nav-item">
+								<a class="nav-link" href="others.html">OTHERS</a>
+							  </li>
+							  <li class="nav-item dropdown orange">
+									<a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										ADMMISSIONS
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+										<li><a class="dropdown-item" href="coursesOffered.html">COURSES  OFFERED</a></li>
+										<li><a class="dropdown-item dropdown-toggle" href="#">ADMISSIONS</a>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" href="admissionBpharm.html">B. PHARM</a></li>
+												<li><a class="dropdown-item" href="admissionMpharm.html">M. PHARM</a></li>
+												<li><a class="dropdown-item" href="admissionPharmD.html">PHARM D</a></li>
+												<li><a class="dropdown-item" href="#">PHARM D (PB)</a></li>
+											</ul>
+										</li> 
+										<li><a class="dropdown-item" href="feestructure.html">FEE STRUCTURE</a></li>                            
+									</ul>
+							  </li>	
+
+							  <li class="nav-item lastItem">
+								<a class="nav-link" href="contactUs.html">Contact Us</a>
+							  </li>
+
+							</ul>					
+							
+						  </div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	 <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background: #25c;">
+				<img src="images/banner-1.jpg"/>
+          </div>
+
+          <div class="carousel-item" style="background: #52c;">
+          	<img src="images/banner-2.jpg"/>
+<!--
+            <div class="caption">
+              <h1>Something and share your whatever</h1>
+              <h2>Else it easy for you to do whatever this thing does.</h2>
+
+              <a class="big-button" href="" title="">Create Project</a>
+              <div class="clear"></div>
+              <a class="view-demo" href="" title="">View Demo</a>
+            </div>
+-->
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner-1.jpg"/>
+          </div>
+
+        </div>
+        
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+      
+    <div class="top-menu-1x">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<marquee onMouseOver="this.stop()" onMouseOut="this.start()" scrollamount='3' scroll-behavior="smooth"; class="scrolltext"><img src="images/icons/new.gif" width="35">For ADMISSION in B.Pharm/M.Pharm/Pharm.D/Pharm D (PB)/B.Tech /M.Tech/MBA/MCA Seats Contact: 9502588612, 9989171133, 9502588609, 9502588615, 9963125922 – <strong>EAMCET CODE: VGSP, PGECET CODE: VGSP1</strong>  &nbsp; &nbsp; | &nbsp; &nbsp;
+					<strong><a href="pdf/SIF-Report-04-07-2022.pdf" class="text-white">SIF 2022</a>
+</strong> 
+					</marquee>
+					
+				</div>				
+			</div>
+		</div>
+	</div>
+
+<!--
+	<div class="main-banner main-banner-2">           			
+        <div class="hvrbox">
+            <img src="images/banner-2.png" alt="Mountains" class="hvrbox-layer_bottom">
+        </div>	                     
+    </div>
+-->
+
+	<div class="about-us-1x">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="about-us-left">
+						<h2>Welcome To Vaageswari</h2>
+						<p>Sree Vaageswari educational society established during the year of 2003 under the leadership of our beloved General Secretary Sri Dr. G. Sreenivas Reddy, who is doctor of Ayurveda, Vaageswari College of Pharmacy (VGSP) is eco-friendly campus spread over in 20 acres with lush green lawns, lovely landscape, aesthetic architecture and avant-garde infrastructure. Vaageswari College of Pharmacy is located at Thimmapur, Karimnagar in Telangana State, established in the year 2004 with the blessings of Godess  Saraswathi Devi. </p>
+						<p>Which is affiliated to JNTUH - Hyderabad, approved by PCI, New Delhi, and we are offering different pharmacy courses, with state of art Campus facilities such as Laboratories, Library, Class rooms, Auditorium, Sports Ground. The institution is ragging free campus and having innovations and inspire a diverse group of future pharmacists as well as pharmaceutical scientists to be the leaders in advanced patient care.</p>
+					</div>
+				</div>
+				<div class="col-md-4 offset-md-1">
+					<div class="about-us-right">
+						<img src="images/collage-1.png" width="100%">
+					</div>
+					<div>
+						<img src="images/collage-2.png" width="100%">
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>	
+
+<!--
+	<div class="course-1x course-bg-1x">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title-middle">
+						<h2>Coursecity Top Courses</h2>
+					</div>
+				</div>
+
+				<div class="col-md-12">
+					<div id="filters" class="course-menu">
+					  <button class="filter active"  data-filter="all">All Courses</button>
+					  <button class="filter" data-rel="web" data-filter=".web">Websites</button>
+					  <button class="filter" data-rel="design" data-filter=".design">Design</button> 
+					  <button class="filter" data-rel="bcards" data-filter=".bcards">Business</button>
+					  <button class="filter" data-rel="photography" data-filter=".photography">Photography</button>
+					  <button class="filter" data-rel="marketing" data-filter=".marketing">Marketing</button>
+					</div>
+				</div>
+
+				<div class="col-md-12">	
+					<div class="all-course">
+						<div class="row">
+						  <div class="col-md-3 tile web">
+							<div class="single-course">
+								<div class="hvrbox">
+									<img src="images/1.jpg" alt="slide 1" class="hvrbox-layer_bottom">
+									<div class="hvrbox-layer_top hvrbox-text">
+										<div class="hvrbox-text">																	
+											<a href="https://www.youtube.com/watch?v=gwinFP8_qIM" class="btn-circle video"><i class="fas fa-play"></i></a>
+											<a href="course-single-one.html">Preview Course</a>	
+										</div>
+									</div>
+								</div>
+								<div class="single-course-content">
+									<a href="course-single-one.html">Learn Photoshop With Eyal Complete Course</a>
+									<p>Nir Eyal <span><del>$169</del> <b>$149</b></span></p>
+									<h3>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i> (4)
+										<span>Enroll: 128</span>
+									</h3>
+								</div>
+							</div>
+						  </div>
+						  <div class="col-md-3 tile design">
+							<div class="single-course">
+								<div class="hvrbox">
+									<img src="images/2.jpg" alt="slide 1" class="hvrbox-layer_bottom">
+									<div class="hvrbox-layer_top hvrbox-text">
+										<div class="hvrbox-text">																	
+											<a href="https://www.youtube.com/watch?v=gwinFP8_qIM" class="btn-circle video"><i class="fas fa-play"></i></a>
+											<a href="course-single.html">Preview Course</a>	
+										</div>
+									</div>
+								</div>
+								<div class="single-course-content">
+									<a href="course-single-one.html">Visual Basic Essential Training</a>
+									<p>Nir Eyal <span><del>$169</del> <b>$149</b></span></p>
+									<h3>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i> (4)
+										<span>Enroll: 128</span>
+									</h3>
+								</div>
+							</div>
+						  </div>
+
+						  <div class="col-md-3 tile marketing">
+							<div class="single-course">
+								<div class="hvrbox">
+									<img src="images/3.jpg" alt="slide 1" class="hvrbox-layer_bottom">
+									<div class="hvrbox-layer_top hvrbox-text">
+										<div class="hvrbox-text">																	
+											<a href="https://www.youtube.com/watch?v=gwinFP8_qIM" class="btn-circle video"><i class="fas fa-play"></i></a>
+											<a href="course-single-one.html">Preview Course</a>	
+										</div>
+									</div>
+								</div>
+								<div class="single-course-content">
+									<a href="course-single-one.html">The Complete Developer Web Course</a>
+									<p>Nir Eyal <span><del>$169</del> <b>$149</b></span></p>
+									<h3>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i> (4)
+										<span>Enroll: 128</span>
+									</h3>
+								</div>
+							</div>
+						  </div>
+
+						  <div class="col-md-3 tile design">
+							<div class="single-course">
+								<div class="hvrbox">
+									<img src="images/4.jpg" alt="slide 1" class="hvrbox-layer_bottom">
+									<div class="hvrbox-layer_top hvrbox-text">
+										<div class="hvrbox-text">																	
+											<a href="https://www.youtube.com/watch?v=gwinFP8_qIM" class="btn-circle video"><i class="fas fa-play"></i></a>
+											<a href="course-single-one.html">Preview Course</a>	
+										</div>
+									</div>
+								</div>
+								<div class="single-course-content">
+									<a href="course-single-one.html">Creating 3D environment in Blender</a>
+									<p>Nir Eyal <span><del>$169</del> <b>$149</b></span></p>
+									<h3>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i> (4)
+										<span>Enroll: 128</span>
+									</h3>
+								</div>
+							</div>
+						  </div>
+
+						  <div class="col-md-3 tile marketing">
+							<div class="single-course">
+								<div class="hvrbox">
+									<img src="images/5.jpg" alt="slide 1" class="hvrbox-layer_bottom">
+									<div class="hvrbox-layer_top hvrbox-text">
+										<div class="hvrbox-text">																	
+											<a href="https://www.youtube.com/watch?v=gwinFP8_qIM" class="btn-circle video"><i class="fas fa-play"></i></a>
+											<a href="course-single-one.html">Preview Course</a>	
+										</div>
+									</div>
+								</div>
+								<div class="single-course-content">
+									<a href="course-single-one.html">Advanced CSS and Sass Flexbox Grid</a>
+									<p>Nir Eyal <span><del>$169</del> <b>$149</b></span></p>
+									<h3>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i> (4)
+										<span>Enroll: 128</span>
+									</h3>
+								</div>
+							</div>
+						  </div>
+
+						  <div class="col-md-3 tile photography">
+							<div class="single-course">
+								<div class="hvrbox">
+									<img src="images/6.jpg" alt="slide 1" class="hvrbox-layer_bottom">
+									<div class="hvrbox-layer_top hvrbox-text">
+										<div class="hvrbox-text">																	
+											<a href="https://www.youtube.com/watch?v=gwinFP8_qIM" class="btn-circle video"><i class="fas fa-play"></i></a>
+											<a href="course-single-one.html">Preview Course</a>	
+										</div>
+									</div>
+								</div>
+								<div class="single-course-content">
+									<a href="course-single-one.html">Complete Cyber Security Course Hackers</a>
+									<p>Nir Eyal <span><del>$169</del> <b>$149</b></span></p>
+									<h3>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i> (4)
+										<span>Enroll: 128</span>
+									</h3>
+								</div>
+							</div>
+						  </div>
+
+						  <div class="col-md-3 tile bcards">
+							<div class="single-course">
+								<div class="hvrbox">
+									<img src="images/7.jpg" alt="slide 1" class="hvrbox-layer_bottom">
+									<div class="hvrbox-layer_top hvrbox-text">
+										<div class="hvrbox-text">																	
+											<a href="https://www.youtube.com/watch?v=gwinFP8_qIM" class="btn-circle video"><i class="fas fa-play"></i></a>
+											<a href="course-single-one.html">Preview Course</a>	
+										</div>
+									</div>
+								</div>
+								<div class="single-course-content">
+									<a href="course-single-one.html">Introduction To Python Programming</a>
+									<p>Nir Eyal <span><del>$169</del> <b>$149</b></span></p>
+									<h3>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i> (4)
+										<span>Enroll: 128</span>
+									</h3>
+								</div>
+							</div>
+						  </div>
+
+						  <div class="col-md-3 tile photography">
+							<div class="single-course">
+								<div class="hvrbox">
+									<img src="images/8.jpg" alt="slide 1" class="hvrbox-layer_bottom">
+									<div class="hvrbox-layer_top hvrbox-text">
+										<div class="hvrbox-text">																	
+											<a href="https://www.youtube.com/watch?v=gwinFP8_qIM" class="btn-circle video"><i class="fas fa-play"></i></a>
+											<a href="course-single-one.html">Preview Course</a>	
+										</div>
+									</div>
+								</div>
+								<div class="single-course-content">
+									<a href="course-single-one.html">Certificate Early Education Leadership</a>
+									<p>Nir Eyal <span><del>$169</del> <b>$149</b></span></p>
+									<h3>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i> (4)
+										<span>Enroll: 128</span>
+									</h3>
+								</div>
+							</div>
+						  </div>
+
+							<div class="col-md-12 text-center">
+								<a href="course-list.html" class="btn-small"> View more </a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+-->
+
+	
+	<section class="sectionPadding">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="col-md-12">
+						 <div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9A5kLLUwkEE"></iframe>
+						 </div>
+						<h4 class="mb-3">Watch Vaageswari Campus Video</h4>
+					</div>
+					<div class="col-md-12">
+						<div class="marqueeText">
+							<h4 class="">Notifications:</h4>
+							<marquee behavior="scroll" direction="up" scrollamount='3' onmouseover='this.stop()' onmouseout='this.start()'>
+								<p><a href="#">Application open For ADMISSION in B.Pharm/M.Pharm/Pharm.D/Pharm D (PB)/B.Tech /M.Tech/MBA/MCA Seats Contact: 9502588612, 9989171133, 9502588609, 9502588615, 9963125922 – <strong>EAMCET CODE: VGSP, PGECET CODE: VGSP1</strong> 9502588609, 9502588615, 9963125922.</a></p>
+								
+								<p><a href="#">Application open For ADMISSION in B.Pharm/M.Pharm/Pharm.D/Pharm D (PB)/B.Tech /M.Tech/MBA/MCA Seats Contact: 9502588612, 9989171133, 9502588609, 9502588615, 9963125922 – <strong>EAMCET CODE: VGSP, PGECET CODE: VGSP1</strong> 9502588609, 9502588615, 9963125922.</a></p>
+							</marquee>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="about-us-left aboutText">
+					<h2 class="mb-2">WHY VAAGESWARI?</h2>
+					<p>Vaageswari College of Pharmacy (VCP) is the first institution in Northern Telangana region with well furnished infrastructure and facilities. The society is located in green and peaceful environment. The main motive is to establish our institution to fulfill student’s future goals by our highly experienced and well qualified faculty members. Vaageswari always creates a positive learning environment where learners also feel very involved and responsible for their learning while being comfortable enough to take part in every activity. We guide students to learn multiple clinical case studies with the collaboration of Chalmeda Ananda Rao Institute of Medical Sciences (CAIMS), Karimnagar. Our Department of Pharmacology has been approved by The Committee for the Purpose of Control and Supervision of Experiments on Animals (CPCSEA) for animal studies.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+<!--
+	<div class="client-1x">
+		<div class="container">			
+			<div class="col-md-12">
+				<div class="title-middle">
+					<h2>Our Recruiters</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				</div>
+			</div>
+
+			<div class="col-md-8 offset-md-2">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="single-client">
+							<a href="#"><img src="images/client/1.png" alt="slide 1"></a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="single-client">
+							<a href="#"><img src="images/client/2.png" alt="slide 1"></a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="single-client">
+							<a href="#"><img src="images/client/3.png" alt="slide 1"></a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="single-client">
+							<a href="#"><img src="images/client/4.png" alt="slide 1"></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single-client">
+							<a href="#"><img src="images/client/5.png" alt="slide 1"></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single-client">
+							<a href="#"><img src="images/client/6.png" alt="slide 1"></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single-client">
+							<a href="#"><img src="images/client/7.png" alt="slide 1"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+-->
+
+<!--
+	<div class="blog-1x">
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title-middle">
+						<h2>Latest News</h2>
+					</div>
+				</div>		
+				<div class="col-md-4">
+					<div class="blog-single">
+						<img src="images/collageFest.png" alt="slide 1">
+
+						<div class="blog-single-content">
+							<a href="#"> College Fest</a>
+							<p>Coursecity is an educational resource for children the teachers. curriculum classroom software is perfect.</p>
+							
+							<h3>
+								<i class="far fa-calendar-check"></i> 8 July, 2021
+								<span><i class="far fa-heart"></i> 8 </span>
+							</h3>							
+						</div>
+					</div>
+				</div>			
+				<div class="col-md-4">
+					<div class="blog-single">
+						<img src="images/summerProgram.png" alt="slide 1">
+
+						<div class="blog-single-content">
+							<a href="#"> Work Shops</a>
+							<p>Coursecity is an educational resource for children the teachers. curriculum classroom software is perfect.</p>
+							
+							<h3>
+								<i class="far fa-calendar-check"></i> 8 July, 2021
+								<span><i class="far fa-heart"></i> 8 </span>
+							</h3>							
+						</div>
+					</div>
+				</div>			
+				<div class="col-md-4">
+					<div class="blog-single">
+						<img src="images/holi.png" alt="slide 1">
+
+						<div class="blog-single-content">
+							<a href="#"> Celebrating Graduation Day</a>
+							<p>Coursecity is an educational resource for children the teachers. curriculum classroom software is perfect.</p>
+							
+							<h3>
+								<i class="far fa-calendar-check"></i> 8 July, 2021
+								<span><i class="far fa-heart"></i> 8 </span>
+							</h3>							
+						</div>
+					</div>
+				</div>		
+
+			</div>
+		</div>
+	</div>
+-->
+
+	
+	
+	
+
+	
+
+	<footer class="footer-section-1x">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer-top">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="footer-top-right single-link">														
+								   <h3>About VGSP</h3>
+	                               	<ul>
+	                               		<li><a href="about.html">  About Us </a></li>
+	                               		<li><a href="governingBody.html">  Governing Body </a></li>
+										<li><a href="#">  Vision & Mission </a></li>
+										<li><a href="vips.html">  Vaageswari Group</a></li>
+										<li><a href="#">  Teaching Faculty</a></li>	
+	                               	</ul>
+<!--
+									<div class="footer-social-link">
+										<ul>
+											<li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>	
+											<li><a href="#"> <i class="fab fa-instagram"></i> </a></li>		
+											<li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
+											<li><a href="#"> <i class="fab fa-google-plus-g"></i> </a></li>
+										</ul>					
+									</div>
+-->
+								</div>	
+							</div>
+
+							<div class="col-md-9">
+								<div class="footer-top-left">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="single-link">
+												<h3>Courses</h3>	
+												<ul>
+													<li><a href="admissionBpharm.html">  B Pharm </a></li>
+													<li><a href="admissionMpharm.html">  M Pharm </a></li>
+													<li><a href="admissionPharmD.html">  Pharm D </a></li>
+													<li><a href="admissionpharmdPB.html">  Pharm D (PB) </a></li>							
+												</ul>
+											</div>	
+										</div>
+										<div class="col-md-4">
+											<div class="single-link">
+												<h3>Quick Links</h3>
+												<ul>
+													<!-- <li><a href="coursesOffered.html">  Admissions</a></li> -->
+													<li><a href="others.html">  Alumni </a></li>
+													<li><a href="others.html">  Gallery </a></li>
+													<li><a href="contactUs.html">  Feed Back Form </a></li>
+							
+												</ul>
+											</div>	
+										</div>
+										<div class="col-md-4">
+											<div class="single-link">
+												<h3>Contact Us</h3>
+												<ul>
+													<li>Vaageswari College of Pharmacy, Beside LMD Police Station, Ramakrishna Colony, <br> Karimnagar – 505527 </li>
+													<li><a href="tel:+919502588612"> <i class="fa fa-phone"></i> : +91-9502588612,  </a></li>
+													<li><a href="mailto:info@vcpk.ac.in"> <i class="fa fa-envelope"></i> : info@vcpk.ac.in </a></li>			
+												</ul>
+											</div>	
+										</div>
+									</div>
+								</div>	
+							</div>
+
+						</div>
+					</div>	
+				</div>
+
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<p>© <a href="#">Sree Vaageswari Eductional Society </a> All Rights Reserved </p>
+					</div>
+				</div>
+			</div>						
+		</div>	
+
+	</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<!-- Wow Script -->
+	<script src="js/wow.min.js"></script>
+	<!-- Counter Script -->
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<!-- Masonry Portfolio Script -->
+    <script src='js/jquery.mixitup.min.js'></script>
+	<!-- Lightbox js -->
+	<script src="inc/lightbox/js/jquery.fancybox.pack.js"></script>
+	<script src="inc/lightbox/js/lightbox.js"></script>
+	<!-- loader js-->
+    <script src="js/fakeLoader.min.js"></script>
+	<!-- Scroll bottom to top -->
+	<script src="js/scrolltopcontrol.js"></script>
+	<!-- menu -->
+	<script src="js/bootstrap-4-navbar.js"></script>
+	<!-- youtube popup video -->
+	<script src="js/jquery.magnific-popup.min.js"></script> 
+	<!-- Testimonial slider Script -->
+	<script src="slick/slick.min.js"></script>
+	<!-- Color switcher js -->
+    <!-- Color-switcher-active -->  
+    <script src="js/color-switcher-active.js"></script>
+	<!-- Custom script -->
+    <script src="js/custom.js"></script>
+	
+  </body>
+
+</html>       
